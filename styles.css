@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+  align-items: center;
+}
+
+.left-side {
+  width: 20%;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 45px;
+  border: 5px solid red;
+}
+
+.center {
+  width: 40%;
+  margin-right: 20%;
+  align-items: center;
+}
+
+.center ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.center ul li a {
+  font-size: 25px;
+  color:blueviolet;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.center ul li a:hover {
+  color: red;
+}
+
+.center ul li a:active {
+  color: red !important;
+}
+
+button {
+  width: 120px;
+  height: 53px;
+  border-radius: 10px;
+  background-color: rgb(166, 8, 8);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: red;
+}
+
+.announce {
+  color: red;
+  margin-left: 90px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+
+.hero-image {
+  width: 750px;
+  height: 450px;
+  float: right;
+  margin-right: 80px;
+  margin-top: -40px;
+}
+
+.heading {
+  color: white;
+  margin-left: 90px;
+  font-size: 45px;
+}
+
+.users {
+  margin-left: 90px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.img-fluid {
+  width:20px;
+  height: 20px;
+  border-radius: 50%;
+  border:2px solid red;
+  margin: none;
+}
+
+.count {
+  color: white;
+}
+
+.learnMore {
+  width: 200px;
+  height: 53px;
+  border-radius: 10px;
+  background-color: rgb(166, 8, 8);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  margin-left: 90px;
+  margin-top: 90px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
